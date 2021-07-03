@@ -1,0 +1,41 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+html {
+    background-color: #dedede;
+}
+#app {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+h1 {
+    font-size: 30px;
+}
+.input {
+    padding: 10px;
+    width: 300px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #FFF;
+    background-color: #333;
+    text-decoration: none;
+    margin-right: 1px;
+}
+nav ul li a:hover {
+    background-color: #666;
+}
